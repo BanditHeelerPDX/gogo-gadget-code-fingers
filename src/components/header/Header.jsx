@@ -10,6 +10,7 @@ export default function Header() {
   return (
     <div className="headerShroud">
       <div className="headerLeft">
+        <img src="/assets/viking.jpg" alt="viking warrior prepares for the playground" className="headerImg" />
         <div className="headerLinks">
           <span className="headerLink">Home</span>
           <span className="headerLink">Profile</span>
@@ -37,7 +38,7 @@ export default function Header() {
             />
           </div>
           <div className="headerRight">
-            <span className="logo">Phonebook</span>
+            <span className="headerLogo">Phonebook</span>
           </div>
         </div>
       </div>

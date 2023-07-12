@@ -1,0 +1,34 @@
+.headerShroud{
+    height: 64px;
+    width: 100%;
+    background-color: #24506E;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 16;
+    top: 0;    
+}
+
+.headerLeft{
+    flex: 3;
+}
+
+.headerRight{
+    flex: 3;
+}
+
+.headerCenter{
+    flex: 6;
+}
+
+.headerImg{
+    height: 96px;
+    width: 96px;
+}
+
+.headerLogo{
+    margin-right: 16px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #B5F2CD;
+}
