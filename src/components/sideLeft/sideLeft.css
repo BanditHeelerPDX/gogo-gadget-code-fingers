@@ -1,5 +1,56 @@
-.leftShroud{
+.sideLeftShroud{
     flex: 0 0 20%;
     height: 90%;
     background-color: #2D5771;
+}
+
+.sideLeftAbove{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sideLeftIAList{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sideLeftIA{
+    display: flex;
+    align-items: center;
+}
+
+.sideLeftIAHeader{
+    margin: 8px 0 16px 16px;
+}
+
+.sideLeftProfImgShroud{
+    margin-right: 16px;
+}
+
+.sideLeftProfImg{
+    height: 64px;
+    width: 64px;
+    margin-left: 12px;
+    border-radius: 25%;
+    object-fit: cover;
+    position: relative;
+}
+
+.sideLeftInterweb{
+    height: 16px;
+    width: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 25%;
+    background-color: #561D55;
+    position: absolute;
+}
+
+.sideLeftIAName{
+    font-size: 24px;
+    font-weight: 400;
+    color: #DECC2D;
 }

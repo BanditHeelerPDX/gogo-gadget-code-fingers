@@ -7,17 +7,8 @@ export default function Timeline() {
     <div className="timeShroud">
         <div className="timeCloak">
           <Distribute />
-          <Contribute />
-          <Contribute />
-          <Contribute />
-          <Contribute />
-          <Contribute />
-          <Contribute />
-          <Contribute />
-          <Contribute />
-          <Contribute />
-          <Contribute />
-          <Contribute />
+          {Posts.map(p => <Contribute key={p.id} post={p} />)}
+          
         </div>
     </div>
   )
