@@ -1,3 +1,5 @@
 .leftShroud{
     flex: 0 0 20%;
+    height: 90%;
+    background-color: #2D5771;
 }

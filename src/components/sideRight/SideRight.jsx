@@ -3,7 +3,7 @@ import { BsFillMegaphoneFill, BsPersonHearts, BsCalendarEvent, BsImages, BsFire 
 
 export default function SideRight() {
   return (
-    <div className="rightShroud">
+    <div className="sideRightShroud">
         <div className="rightCloak">
             <ul className="sideRightMenu">
               <li className="sideRightMenuItem">

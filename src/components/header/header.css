@@ -77,10 +77,12 @@
 }
 
 .headerLogo{
-    margin-right: 16px;
+    margin-right: 48px;
     font-size: 48px;
     font-weight: 700;
     color: #B5F2CD;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .searchIcon{

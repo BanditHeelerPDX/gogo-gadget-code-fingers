@@ -1,6 +1,6 @@
-.rightShroud{
+.sideRightShroud{
     flex: 0 0 20%;
-    height: calc(100vh - 96px);
+    height: 90%;
     background-color: #2D5771;
 }
 
@@ -48,12 +48,14 @@
 
 .sideRightButton{
     padding: 8px;
+    margin-left: 32px;
     border: none;
-    width: 160px;
+    width: 176px;
     border-radius: 16px;
     background-color: #DECC2D;
-    color: #2D5771;
+    color: #561D55;
     font-size: 24px;
+    font-weight: 700;
 }
 
 .sideRightButton:hover{
