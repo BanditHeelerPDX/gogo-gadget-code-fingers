@@ -5,6 +5,8 @@ import {
   BsHeartFill,
   BsJoystick,
 } from "react-icons/bs";
+import { useState } from "react";
+import { Users, Posts } from "../../dummyData";
 
 export default function Contribute({ post }) {
   const [like, setLike] = useState(post.like)
@@ -22,9 +24,9 @@ export default function Contribute({ post }) {
             <BsFillGrid3X3GapFill className="contributeIcon" />
           </div>
           <div className="contributeAboveRight">
-            <span className="contributeUsername">{Users.filter((u) => u.id === post.userId)[0].userName}</span>
+            <span className="contributeUsername">{Users.filter((u) => u.id === post.userId)[0].username}</span>
             <img
-              src={Users.filter((u) => u.id === post.userId)[0].profilePicture}
+              src={Users.filter((u) => u.id === post.userId)[0].profileImage}
               alt=""
               className="contributeProfImg"
             />

@@ -1,7 +1,9 @@
 import "./sideLeft.css"
 import Calendar from "react-calendar"
+import { Users } from "../../dummyData"
+import Interweb from "../interweb/Interweb"
 
-export default function SideLeft({ dashboard }) {
+export default function SideLeft({ user }) {
   const HomeSideLeft = () => {
     return (
       <>
@@ -43,7 +45,7 @@ export default function SideLeft({ dashboard }) {
       <h3 className="sideLeftTitle">My peeps</h3>
       <div className="sideLeftPeeps">
         <div className="sideLeftPeep">
-          <img src={} alt="" className="sideLeftPeepImg" />
+          <img src="/assets/viking.jpg" alt="" className="sideLeftPeepImg" />
           <span className="sideLeftPeepName">John Doe</span>
         </div>
         </div>
@@ -53,7 +55,7 @@ export default function SideLeft({ dashboard }) {
   return (
     <div className="sideLeftShroud">
       <div className="sideLeftCloak">
-        {profile ? <DashboardSideLeft /> : <HomeSideLeft />}
+        {user ? <DashboardSideLeft /> : <HomeSideLeft />}
       </div>
     </div>
   )

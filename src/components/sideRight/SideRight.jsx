@@ -1,7 +1,9 @@
 import "./sideRight.css"
 import { BsFillMegaphoneFill, BsPersonHearts, BsCalendarEvent, BsImages, BsFire } from "react-icons/bs";
+import Friends from "../friends/Friends";
 
-export default function SideRight() {
+
+export default function SideRight({ User }) {
   return (
     <div className="sideRightShroud">
         <div className="rightCloak">

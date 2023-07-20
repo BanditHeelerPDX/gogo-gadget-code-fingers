@@ -1,6 +1,7 @@
 import "./timeline.css";
 import Distribute from "../distribute/Distribute";
 import Contribute from "../contribute/Contribute";
+import { Posts } from "../../dummyData";
 
 export default function Timeline() {
   return (
